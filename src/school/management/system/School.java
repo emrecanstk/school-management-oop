@@ -10,7 +10,6 @@ public class School {
 
     /**
      * New school object created.
-     *
      * @param teachers list of teachers in the school.
      * @param students list of students in the school.
      */
@@ -25,31 +24,31 @@ public class School {
         return teachers;
     }
 
-    public void setTeachers(List<Teacher> teachers) {
-        this.teachers = teachers;
+    public void addTeacher(Teacher teacher) {
+        teachers.add(teacher);
     }
 
     public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(List<Student> students) {
-        this.students = students;
+    public void addStudent(Student student) {
+        students.add(student);
     }
 
     public int getTotalMoneyEarned() {
         return totalMoneyEarned;
     }
 
-    public void setTotalMoneyEarned(int totalMoneyEarned) {
-        this.totalMoneyEarned = totalMoneyEarned;
+    public void updateTotalMoneyEarned(int MoneyEarned) {
+        totalMoneyEarned += MoneyEarned;
     }
 
     public int getTotalMoneySpend() {
         return totalMoneySpend;
     }
 
-    public void setTotalMoneySpend(int totalMoneySpend) {
-        this.totalMoneySpend = totalMoneySpend;
+    public void updateTotalMoneySpend(int MoneySpend) {
+        totalMoneySpend -= MoneySpend;
     }
 }
