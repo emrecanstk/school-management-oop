@@ -17,15 +17,20 @@ public class Teacher {
         this.salary = salary;
     }
 
-    public int getId() {        // return the id of the teacher.
+    public int getId() {                    // return the id of the teacher.
         return id;
     }
 
-    public String getName() {   // return the name of the teacher.
+    public String getName() {               // return the name of the teacher.
         return name;
     }
 
-    public int getSalary() {    // return the salary of the teacher.
+    public int getSalary() {                // return the salary of the teacher.
         return salary;
     }
+
+    public void setSalary(int salary) {     // set the salary for teacher.
+        this.salary = salary;
+    }
+
 }
