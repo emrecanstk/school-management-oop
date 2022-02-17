@@ -1,6 +1,12 @@
 package school.management.system;
 
-public class School {
-    
+import java.util.List;
 
+public class School {
+    private List<Teacher> teachers;
+    private List<Student> students;
+    private int totalMoneyEarned;
+    private int totalMoneySpend;
+
+    
 }
