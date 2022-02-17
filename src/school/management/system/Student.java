@@ -15,7 +15,6 @@ public class Student {
      * @param name of the students.
      * @param grade of the students.
      */
-
     public Student(int id, String name, int grade) {
         this.id = id;
         this.name = name;
@@ -24,6 +23,13 @@ public class Student {
         this.feesTotal = 30000;
     }
 
+    /**
+     * Used to update the student's grade.
+     * @param grade new grade of the student.
+     */
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
 
 
 }
