@@ -16,6 +16,16 @@ public class Teacher {
         this.name = name;
         this.salary = salary;
     }
-    
 
+    public int getId() {        // return the id of the teacher.
+        return id;
+    }
+
+    public String getName() {   // return the name of the teacher.
+        return name;
+    }
+
+    public int getSalary() {    // return the salary of the teacher.
+        return salary;
+    }
 }
