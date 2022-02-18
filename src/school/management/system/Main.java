@@ -1,5 +1,8 @@
 package school.management.system;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,6 +26,11 @@ public class Main {
         Student omer = new Student(11,"Ömer Över",1);
         Student irem = new Student(12,"Nimet İrem Uykucuoğlu",1);
         Student gulendam = new Student(13,"Gülendam Pirinççi",1);
-    }   
+
+        List<Teacher> teacherList = new ArrayList<>();
+        teacherList.add(aybuke);teacherList.add(necmettin);teacherList.add(nese);
+        teacherList.add(huseyin);teacherList.add(mustafa);teacherList.add(dilay);
+        
+    }
 
 }
