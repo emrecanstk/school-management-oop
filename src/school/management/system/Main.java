@@ -37,7 +37,7 @@ public class Main {
         studentList.add(ridvan);studentList.add(emirhan);studentList.add(aliosman);
         studentList.add(nazli);studentList.add(omer);studentList.add(irem);studentList.add(murat);
 
-        
+        School saglik = new School(teacherList,studentList);
     }
 
 }
