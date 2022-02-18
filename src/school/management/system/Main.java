@@ -47,6 +47,10 @@ public class Main {
         omer.payFees(150);
 
         System.out.println("> School of Sağlık has earned "+saglik.getTotalMoneyEarned()+" TL.");
+        necmettin.receiveSalary(necmettin.getSalary());
+        System.out.println("> School of Sağlık has spent for salary to " + necmettin.getName()
+        +" and now School has " + saglik.getTotalMoneyEarned() +" TL.");
+
     }
 
 }
