@@ -6,7 +6,7 @@ public class School {
     private List<Teacher> teachers;
     private List<Student> students;
     private static int totalMoneyEarned;
-    private int totalMoneySpend;
+    private static int totalMoneySpend;
 
     /**
      * New school object created.
@@ -48,7 +48,7 @@ public class School {
         return totalMoneySpend;
     }
 
-    public void updateTotalMoneySpend(int MoneySpend) {
+    public static void updateTotalMoneySpend(int MoneySpend) {
         totalMoneySpend -= MoneySpend;
     }
 }

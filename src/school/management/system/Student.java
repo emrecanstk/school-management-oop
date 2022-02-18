@@ -38,8 +38,9 @@ public class Student {
      * @param fees the fees that the student pays.
      */
     public void payFees(int fees) {
-        this.feesPaid += fees;
+        feesPaid += fees;
         School.updateTotalMoneyEarned(feesPaid);
+        System.out.println(name +" paid " + feesPaid + " TL.");
     }
 
     public int getId() {

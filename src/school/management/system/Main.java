@@ -38,7 +38,15 @@ public class Main {
         studentList.add(nazli);studentList.add(omer);studentList.add(irem);studentList.add(murat);
 
         School saglik = new School(teacherList,studentList);
-        System.out.println("School of Sağlık has earned "+saglik.getTotalMoneyEarned()+" TL.");
+
+        emrecan.payFees(500);
+        emrecan.payFees(300);
+        aliosman.payFees(700);
+        irem.payFees(1000);
+        serdar.payFees(3400);
+        omer.payFees(150);
+
+        System.out.println("> School of Sağlık has earned "+saglik.getTotalMoneyEarned()+" TL.");
     }
 
 }
