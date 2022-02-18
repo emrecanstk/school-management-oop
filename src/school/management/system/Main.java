@@ -30,6 +30,13 @@ public class Main {
         List<Teacher> teacherList = new ArrayList<>();
         teacherList.add(aybuke);teacherList.add(necmettin);teacherList.add(nese);
         teacherList.add(huseyin);teacherList.add(mustafa);teacherList.add(dilay);
+
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(emrecan);studentList.add(gulnur);studentList.add(eray);
+        studentList.add(cihan);studentList.add(serdar);studentList.add(gulendam);
+        studentList.add(ridvan);studentList.add(emirhan);studentList.add(aliosman);
+        studentList.add(nazli);studentList.add(omer);studentList.add(irem);studentList.add(murat);
+
         
     }
 
