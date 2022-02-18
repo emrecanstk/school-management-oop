@@ -33,4 +33,8 @@ public class Teacher {
         this.salary = salary;
     }
 
+    public void receiveSalary(int salary) {
+        
+    }
+
 }
