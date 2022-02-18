@@ -38,6 +38,7 @@ public class Main {
         studentList.add(nazli);studentList.add(omer);studentList.add(irem);studentList.add(murat);
 
         School saglik = new School(teacherList,studentList);
+        System.out.println("School of Sağlık has earned "+saglik.getTotalMoneyEarned()+" TL.");
     }
 
 }

@@ -5,7 +5,7 @@ import java.util.List;
 public class School {
     private List<Teacher> teachers;
     private List<Student> students;
-    private int totalMoneyEarned;
+    private static int totalMoneyEarned;
     private int totalMoneySpend;
 
     /**
@@ -40,7 +40,7 @@ public class School {
         return totalMoneyEarned;
     }
 
-    public void updateTotalMoneyEarned(int MoneyEarned) {
+    public static void updateTotalMoneyEarned(int MoneyEarned) {
         totalMoneyEarned += MoneyEarned;
     }
 
