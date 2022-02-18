@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-
+    // there are some examples for using this management sytsem:
     public static void main(String[] args) {
         Teacher aybuke = new Teacher(1,"Şenay Aybüke Yalçın",1300);
         Teacher necmettin = new Teacher(2,"Necmettin Yılmaz",1100);
